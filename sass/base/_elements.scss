@@ -1,0 +1,24 @@
+/* sass-intro
+ *
+ * /sass/base/_elements.scss - Styles base elements
+ * by leny@flatLand!
+ * created at 04/02/2016
+ */
+
+html {
+    background: $backgroundColor;
+    font: normal 62.5%/1.25 $textFont;
+}
+
+body {
+    color: $textColor;
+}
+
+a {
+    color: $linkColor;
+    text-decoration: none;
+    transition: color .25s ease-in-out;
+    &:hover {
+        color: $linkHoverColor;
+    }
+}

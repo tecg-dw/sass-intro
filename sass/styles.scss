@@ -1,0 +1,32 @@
+/* sass-intro
+ *
+ * /sass/styles.scss - Main stylesheet
+ * by leny@flatLand!
+ * created at 04/02/2016
+ */
+
+// Settings
+@import "settings/colors";
+@import "settings/fonts";
+@import "settings/size";
+
+// Tools
+// --- nothing here (yet)
+
+// Generic
+@import "generic/reset";
+
+// Base
+@import "base/elements";
+
+// Objects
+@import "objects/structure";
+
+// Components
+@import "components/header";
+@import "components/identity";
+@import "components/stuffs";
+@import "components/footer";
+
+// Trumps
+// --- nothing here (yet)

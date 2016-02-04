@@ -1,0 +1,27 @@
+/* sass-intro
+ *
+ * /sass/components/_footer.scss - Footer specific styles
+ * by leny@flatLand!
+ * created at 04/02/2016
+ */
+
+footer {
+    h2 {
+        display: none;
+    }
+    ul {
+        list-style: none;
+        padding: 4rem 0;
+        font-size: 0;
+        li {
+            display: inline-block;
+            width: 25%;
+            font-size: 1.4rem;
+            text-align: center;
+        }
+    }
+    p {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+}

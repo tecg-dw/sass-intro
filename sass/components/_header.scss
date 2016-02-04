@@ -1,0 +1,19 @@
+/* sass-intro
+ *
+ * /sass/components/_header.scss - Header specific styles
+ * by leny@flatLand!
+ * created at 04/02/2016
+ */
+
+header {
+    background: rgba( $headerColor, .15 );
+    border-radius: .5rem;
+    h1 {
+        font: bold 2.5rem $headerFont;
+        color: $headerColor;
+        small {
+            display: block;
+            color: $textColor;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+/* sass-intro
+ *
+ * /sass/generic/_reset.scss - Reset styles
+ * by leny@flatLand!
+ * created at 04/02/2016
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}

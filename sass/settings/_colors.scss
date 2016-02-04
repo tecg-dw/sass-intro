@@ -1,0 +1,18 @@
+/* sass-intro
+ *
+ * /sass/settings/_colors.scss - Global color variables
+ * by leny@flatLand!
+ * created at 04/02/2016
+ */
+
+$red: #c30;
+$blue: #03C;
+$darkGray: #333;
+
+$backgroundColor: #DDD;
+
+$textColor: $darkGray;
+$headerColor: $red;
+
+$linkColor: $blue;
+$linkHoverColor: complement( $linkColor );

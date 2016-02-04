@@ -1,0 +1,30 @@
+/* sass-intro
+ *
+ * /sass/components/_stuffs.scss - Stuffs section specific styles
+ * by leny@flatLand!
+ * created at 04/02/2016
+ */
+
+section.stuffs {
+    h2 {
+        margin: 0 auto 2rem;
+        font: normal 2rem $headerFont;
+        color: adjust-hue( $headerColor, -45deg );
+    }
+    ul {
+        list-style: none;
+        li {
+            margin: 0 auto 1.5rem;
+            font-size: 1.6rem;
+            &:before {
+                content: "";
+                display: inline-block;
+                width: 1.2rem;
+                height: 1.2rem;
+                margin-right: 1rem;
+                background: adjust-hue( $headerColor, 125deg );
+                border-radius: 100%;
+            }
+        }
+    }
+}

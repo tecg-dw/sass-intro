@@ -1,0 +1,35 @@
+/* sass-intro
+ *
+ * /sass/objects/_structure.scss - Structure elements
+ * by leny@flatLand!
+ * created at 04/02/2016
+ */
+
+main {
+    width: $mainSize;
+    margin: ( $mainSize / 4 ) auto 0;
+}
+
+header {
+    margin: 0 auto 2rem;
+    padding: .5rem;
+}
+
+section.identity {
+    width: $mainSize / 3;
+    float: left;
+}
+
+section.stuffs {
+    width: $mainSize * 2 / 3;
+    float: right;
+    padding-left: 4rem;
+}
+
+footer {
+    &:before {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+}
